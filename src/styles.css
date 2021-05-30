@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --blue:#1976d2;
+    --sky:#CAEBF2;
+    --carbon:#A9A9A9;
+    --watermelon:#FF3B3F;
+    --neutral:#EFEFEF;
+    --white:#FFFFFF;
+    --evening:#262228;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--neutral);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover,a:link, a:visited, a:active{
+    text-decoration: none !important;
+    color:var(--evening);
+}

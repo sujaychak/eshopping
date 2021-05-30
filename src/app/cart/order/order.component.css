@@ -1,0 +1,8 @@
+.modal {
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    background: red;
+    color: #fff;
+  }
